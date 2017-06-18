@@ -68,7 +68,7 @@ Removes transpilation results and map files, but does not touch released files i
 ## Bugs & Issues
 
 If there are any problems with this module or you find any bugs, then please feel free to create a new issue on the
-corresponding GitHub page.
+[corresponding GitHub page](https://github.com/clovergaze/simple-logger/issues).
 
 ## Author
 
