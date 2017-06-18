@@ -1,6 +1,6 @@
 {
   "name": "@clovergaze/simple-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple logger that logs a message with a timestamp.",
   "author": "Johannes Hillert <johannes.hillert@infokin.org>",
   "license": "MIT",
