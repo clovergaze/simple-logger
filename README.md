@@ -13,7 +13,7 @@ npm install @clovergaze/simple-logger
 ~~~typescript
 import {SimpleLogger} from "@clovergaze/simple-logger";
 
-let simpleLogger: SimpleLogger = new SimpleLogger();
+const simpleLogger: SimpleLogger = new SimpleLogger();
 
 // Log a message
 simpleLogger.log("My log message");
