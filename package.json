@@ -1,6 +1,6 @@
 {
   "name": "@clovergaze/simple-logger",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A very simple Node module for logging a message with a timestamp.",
   "author": "Johannes Hillert <johannes.hillert@infokin.org>",
   "license": "MIT",
