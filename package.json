@@ -4,6 +4,13 @@
   "description": "A simple logger that logs a message with a timestamp.",
   "author": "Johannes Hillert <johannes.hillert@infokin.org>",
   "license": "MIT",
+  "keywords": [
+    "logger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clovergaze/simple-logger.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "grunt",
