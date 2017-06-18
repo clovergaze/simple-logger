@@ -19,7 +19,9 @@ let simpleLogger: SimpleLogger = new SimpleLogger();
 simpleLogger.log("My log message");
 
 // Retrieve log messages
-simpleLogger.getLog().forEach((entry) => { console.log(entry.date + " - " + entry.message); });
+simpleLogger.getLog().forEach((entry) => {
+    console.log(entry.date + " - " + entry.message);
+});
 
 // Clear log
 simpleLogger.clearLog();
