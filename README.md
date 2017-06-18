@@ -1,6 +1,6 @@
 # Simple Logger
 
-A very simple Node module for logging.
+A very simple Node module for logging a message with a timestamp.
 
 ## Install
 
