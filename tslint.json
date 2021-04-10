@@ -1,10 +1,12 @@
 {
   "extends": "tslint:recommended",
   "rules": {
-    "no-unused-expression": false,
+    "max-classes-per-file": false,
     "no-namespace": false,
-    "max-classes-per-file": [
-      false
+    "no-unused-expression": false,
+    "quotemark": [
+      true,
+      "single"
     ]
   }
 }
