@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SimpleLogger = void 0;
 class SimpleLogger {
     constructor() {
         this.logEntries = [];
