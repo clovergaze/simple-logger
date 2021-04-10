@@ -7,6 +7,13 @@
     "quotemark": [
       true,
       "single"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
     ]
   }
 }
