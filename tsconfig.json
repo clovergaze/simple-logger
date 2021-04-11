@@ -4,8 +4,8 @@
     "module": "CommonJS",
     "moduleResolution": "Node",
     "alwaysStrict": true,
-    "declaration": true,
     "removeComments": true,
+    "declaration": true,
     "sourceMap": false
   },
   "include": [
