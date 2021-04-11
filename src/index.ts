@@ -1,9 +1,5 @@
 export class SimpleLogger {
-    private logEntries: SimpleLogger.Entry[];
-
-    constructor() {
-        this.logEntries = [];
-    }
+    private logEntries: SimpleLogger.Entry[] = [];
 
     public log(message: string): void {
         this.logEntries.push(new SimpleLogger.Entry(message));

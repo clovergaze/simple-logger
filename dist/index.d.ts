@@ -1,6 +1,5 @@
 export declare class SimpleLogger {
     private logEntries;
-    constructor();
     log(message: string): void;
     getLog(): SimpleLogger.Entry[];
     clearLog(): void;
