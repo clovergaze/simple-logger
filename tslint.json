@@ -6,7 +6,7 @@
     "no-unused-expression": false,
     "quotemark": [
       true,
-      "single"
+      "double"
     ],
     "trailing-comma": [
       true,
