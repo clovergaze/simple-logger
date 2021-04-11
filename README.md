@@ -20,7 +20,7 @@ simpleLogger.log("My message..");
 
 // Retrieve log messages
 simpleLogger.getLog().forEach((entry: SimpleLogger.Entry): void => {
-    console.log(entry.date + " - " + entry.message);
+    console.log(`${entry.date} - ${entry.message}`);
 });
 
 // Clear log
@@ -29,44 +29,44 @@ simpleLogger.clearLog();
 
 ## Development
 
-For every development step, like continuous build mode, testing or releasing, everything has to be built first.
+For every development step, like continuous build mode, testing or releasing, everything must be built first.
 
 ### Building
 
-~~~bash
+```bash
 npm run build
-~~~
+```
 
-This executes the [Grunt](https://gruntjs.com/) `build` task (via its `default` task) that lints and transpiles the
+This executes the [Grunt](https://gruntjs.com/) `build` task (via the `default` task) that lints and transpiles the
 sources.
 
 #### Continuous build mode
 
-~~~bash
+```bash
 npm run watch
-~~~
+```
 
 ### Testing
 
-~~~bash
+```bash
 npm test
-~~~
+```
 
-This executes test cases inside the `./test` folder which use [Mocha](http://mochajs.org/).
+This executes test cases inside the `test` folder which use [Mocha](http://mochajs.org/).
 
 ### Releasing
 
-~~~bash
+```bash
 npm run release
-~~~
+```
 
 ### Cleaning
 
-~~~bash
+```bash
 npm run clean
-~~~
+```
 
-This removes transpilation results but does not touch the `./dist` folder or files it contains.
+This removes all generated files and folders but does not touch the `dist` folder or files it contains.
 
 ## Bugs & Issues
 
