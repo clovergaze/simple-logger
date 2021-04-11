@@ -1,5 +1,5 @@
 import * as chai from 'chai';
-import {SimpleLogger} from '../src';
+import { SimpleLogger } from '../src';
 
 const expect = chai.expect;
 
