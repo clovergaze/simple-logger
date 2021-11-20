@@ -1,6 +1,6 @@
 {
   "name": "@clovergaze/simple-logger",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A very simple Node module for logging messages with timestamps.",
   "keywords": [
     "logger"
